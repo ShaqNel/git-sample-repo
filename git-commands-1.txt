@@ -9,3 +9,49 @@ git commit -m ""					-->Commit fee to local Git Repo
 git log							->Check changes made to file w/ existing file
 Git diff <filename>					-> Est. connection to the remote GitHub repo
 Git push origin master					-> Push to master branch
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	   PrivateBranch1-------------------
+	     |				   |				
+	     |				   |		
+	     |				   |     
+----------Master------Release--------Master------------Master--------Release-----------Master--------
+	   |							|								
+	   |							|Pull and then merge					
+	PrivateBranch2-------------------------------------------
