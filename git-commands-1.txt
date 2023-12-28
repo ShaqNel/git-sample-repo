@@ -1,10 +1,11 @@
-git status --> prints status of got repository 
-git init --> initializes the Git Repository
-git config --global user.name "Let's Kode It"
-git config --global user.email letskodeit@gmail.com
-git config user.name "Let's Kode It"
-git config user.email letskodeit@gmail.com
-git add
-git commit -m ""
-git log
-Git diff <filename>
+git status 						--> prints status of got repository 
+git init 						--> initializes the Git Repository
+git config --global user.name "Let's Kode It"		-->Specify Username globally
+git config --global user.email letskodeit@gmail.com	->Specify Email Globally	
+git config user.name "Let's Kode It"			->Specify username for particular repo
+git config user.email letskodeit@gmail.com		->Specify email for particular repo
+git add							-> Add file to staging env
+git commit -m ""					-->Commit fee to local Git Repo
+git log							->Check changes made to file w/ existing file
+Git diff <filename>					-> Est. connection to the remote GitHub repo
+Git push origin master					-> Push to master branch
